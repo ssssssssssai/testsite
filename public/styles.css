@@ -1,0 +1,42 @@
+/* Body style */
+body {
+  background-color: #8a2be2; /* Purple background */
+  font-family: Arial, sans-serif;
+  color: white; /* Text color */
+}
+
+/* Chat box style */
+#messages {
+  height: 300px; /* Adjust height as needed */
+  overflow-y: scroll; /* Enable vertical scrolling */
+  padding: 10px;
+}
+
+/* Input box style */
+#message-input {
+  width: calc(100% - 100px); /* Adjust width as needed */
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+/* Button style */
+.button {
+  background-color: #ff1493; /* Pink button color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* Send button style */
+#send-button {
+  margin-top: 10px;
+}
+
+/* Skip button style */
+#skip-button {
+  margin-top: 10px;
+}
